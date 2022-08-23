@@ -1,0 +1,41 @@
+.features {
+	background-color: var(--first-bgcolor);
+
+	&__list {
+		display: flex;
+		column-gap: 30px;
+	}
+
+	&__item {
+		font-size: 14px;
+		line-height: 1.71;
+		letter-spacing: 0.03em;
+
+		max-width: 270px;
+	}
+
+	&__icon {
+		width: 270px;
+		height: 120px;
+		background-color: var(--fourth-bgcolor);
+
+		margin-bottom: 30px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border-radius: 4px;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+
+		margin-bottom: 10px;
+	}
+}
