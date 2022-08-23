@@ -48,12 +48,6 @@
 		}
 	}
 }
-// .portfolio-btn:hover,
-// .portfolio-btn:focus {
-// 	color: var(--primary-white-color);
-// 	background-color: var(--accent-color);
-// 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-// }
 
 .images {
 	display: flex;
@@ -75,14 +69,6 @@
 			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 		}
 	}
-	// .portfolio-link:hover,
-	// .portfolio-link:focus {
-	// 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-	// }
-
-	// .portfolio-link:hover .portfolio-top-text {
-	// 	transform: translateY(0%);
-	// }
 
 	&__top-wrap {
 		position: relative;
