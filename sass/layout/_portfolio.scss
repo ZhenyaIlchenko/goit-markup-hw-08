@@ -93,10 +93,10 @@
 		transform: translateY(100%);
 		transition: transform var(--transition-function);
 		overflow: auto;
+	}
 
-		&__link:hover & {
-			transform: translateY(0%);
-		}
+	&__link:hover &__top-text {
+		transform: translateY(0%);
 	}
 
 	&__title-info {

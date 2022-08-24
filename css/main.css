@@ -865,7 +865,7 @@ img {
   transition: transform var(--transition-function);
   overflow: auto;
 }
-.images__top-text__link:hover .images__top-text {
+.images__link:hover .images__top-text {
   transform: translateY(0%);
 }
 .images__title-info {
