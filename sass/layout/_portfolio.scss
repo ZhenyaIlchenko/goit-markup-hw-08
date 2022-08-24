@@ -2,22 +2,33 @@
 	background-color: var(--first-bgcolor);
 
 	&__list-btn {
-		margin-bottom: 50px;
-
-		// display: flex;
-		// justify-content: center;
-
-		// gap: 8px;
+		// margin-bottom: 50px;
+		@media screen and (min-width: 480px) {
+			margin-bottom: 40px;
+		}
+		@media screen and (min-width: 768px) {
+			margin-bottom: 30px;
+		}
+		@media screen and (min-width: 1200px) {
+			margin-bottom: 50px;
+		}
 	}
 }
 
 .buttons {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+	@media screen and (min-width: 768px) {
+		justify-content: center;
+	}
 
 	gap: 8px;
 
 	&__portfolio {
+		// width: 100%;
+
 		background: var(--fourth-bgcolor);
 
 		font-family: "Roboto";
@@ -58,6 +69,14 @@
 		background-color: var(--primary-white-color);
 		width: calc((100% - 60px) / 3);
 		text-align: left;
+
+		width: 100%;
+		@media screen and (min-width: 768px) {
+			width: calc((100% - 30px) / 2);
+		}
+		@media screen and (min-width: 1200px) {
+			width: calc((100% - 60px) / 3);
+		}
 	}
 
 	&__link {
@@ -74,6 +93,7 @@
 		position: relative;
 		overflow: hidden;
 	}
+
 	&__top-text {
 		font-size: 18px;
 		line-height: 1.5;
