@@ -1,4 +1,8 @@
 .about {
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
+
 	background-color: var(--first-bgcolor);
 	padding-top: 0;
 
