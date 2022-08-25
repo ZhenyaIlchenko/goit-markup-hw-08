@@ -490,12 +490,17 @@ img {
   margin-bottom: 10px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .features__title {
+    text-align: left;
+  }
+}
 
 .about {
   background-color: var(--first-bgcolor);
   padding-top: 0;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.98px) {
   .about {
     display: none;
   }
