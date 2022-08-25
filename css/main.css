@@ -194,51 +194,44 @@ img {
   padding-bottom: 60px;
 }
 .footer__info {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
 }
-
-.address {
+.footer .address {
   font-style: normal;
   margin-top: 20px;
 }
-.address__item:not(:last-child) {
+.footer .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address__text {
+.footer .address__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.address__mail, .address__tel {
+.footer .address__mail, .footer .address__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-mail-tel-color);
 }
-.address__mail:hover, .address__mail:focus, .address__tel:hover, .address__tel:focus {
+.footer .address__mail:hover, .footer .address__mail:focus, .footer .address__tel:hover, .footer .address__tel:focus {
   color: var(--accent-color);
 }
-
-.footer-social {
-  margin-left: 70px;
-}
-
-.social__text {
+.footer .social__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  display: flex;
   margin-bottom: 20px;
 }
 
 .social__list {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .social__link {
@@ -267,12 +260,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  display: flex;
   margin-bottom: 20px;
 }
 
 .mailing__form {
-  display: flex;
   gap: 12px;
 }
 
@@ -302,7 +293,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -314,12 +304,6 @@ img {
   border-radius: 4px;
   cursor: pointer;
   border: none;
-}
-
-.mailing__btn-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero {

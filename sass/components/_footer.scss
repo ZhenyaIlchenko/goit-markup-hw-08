@@ -4,68 +4,68 @@
 	padding-bottom: 60px;
 
 	&__info {
-		display: flex;
-		align-items: baseline;
-	}
-}
-
-.address {
-	font-style: normal;
-	margin-top: 20px;
-
-	&__item:not(:last-child) {
-		margin-bottom: 9px;
+		// display: flex;
+		// align-items: baseline;
+		text-align: center;
 	}
 
-	&__text {
-		font-size: 14px;
-		line-height: 1.71;
-		letter-spacing: 0.03em;
+	.address {
+		font-style: normal;
+		margin-top: 20px;
 
-		color: var(--primary-white-color);
-	}
+		&__item:not(:last-child) {
+			margin-bottom: 9px;
+		}
 
-	&__mail,
-	&__tel {
-		font-size: 14px;
-		line-height: 1.71;
-		letter-spacing: 0.03em;
+		&__text {
+			font-size: 14px;
+			line-height: 1.71;
+			letter-spacing: 0.03em;
 
-		color: var(--footer-mail-tel-color);
+			color: var(--primary-white-color);
+		}
 
-		&:hover,
-		&:focus {
-			color: var(--accent-color);
+		&__mail,
+		&__tel {
+			font-size: 14px;
+			line-height: 1.71;
+			letter-spacing: 0.03em;
+
+			color: var(--footer-mail-tel-color);
+
+			&:hover,
+			&:focus {
+				color: var(--accent-color);
+			}
 		}
 	}
-}
-// .footer-mail:hover,
-// .footer-mail:focus,
-// .footer-tel:hover,
-// .footer-tel:focus {
-// 	color: var(--accent-color);
-// }
 
-.footer-social {
-	margin-left: 70px;
-}
+	.footer-social {
+		// margin-left: 70px;
+	}
 
-.social__text {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
+	.social__text {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
 
-	color: #ffffff;
+		color: #ffffff;
 
-	display: flex;
-	margin-bottom: 20px;
+		// display: flex;
+		margin-bottom: 20px;
+
+		// @media screen and (min-width: 768px) {
+		// 	display: flex;
+	}
 }
 
 .social__list {
 	display: flex;
 	gap: 10px;
+
+	justify-content: center;
 }
 
 .social__link {
@@ -106,12 +106,12 @@
 
 	color: #ffffff;
 
-	display: flex;
+	// display: flex;
 	margin-bottom: 20px;
 }
 
 .mailing__form {
-	display: flex;
+	// display: flex;
 	gap: 12px;
 }
 
@@ -158,7 +158,7 @@
 	font-size: 16px;
 	line-height: 1.88;
 
-	display: flex;
+	// display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -174,7 +174,7 @@
 }
 
 .mailing__btn-icon {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	// display: flex;
+	// align-items: center;
+	// justify-content: center;
 }
