@@ -122,3 +122,21 @@
 .icon-tel {
 	vertical-align: -2px;
 }
+
+.menu-open {
+	width: 40px;
+	height: 40px;
+	background-color: var(--first-bgcolor);
+	border: none;
+
+	background-image: url(../images/menu_mob.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	margin-left: auto;
+	padding: 22px;
+
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
