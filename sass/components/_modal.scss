@@ -13,8 +13,13 @@
 // }
 
 .modal {
-	width: 528px;
-	min-height: 581px;
+	width: 450px;
+	min-height: 609px;
+
+	@media screen and (min-width: 1200px) {
+		width: 528px;
+		min-height: 581px;
+	}
 
 	background-color: var(--first-bgcolor);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -70,12 +75,16 @@
 .modal__title {
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 1.15;
+	line-height: 1.5;
 	text-align: center;
 	letter-spacing: 0.03em;
 
 	color: var(--title-text-color);
 	margin-bottom: 12px;
+
+	@media screen and (min-width: 1200px) {
+		line-height: 1.15;
+	}
 }
 
 .modal__field {
@@ -141,8 +150,14 @@
 }
 
 .modal__user-text {
-	width: 448px;
+	width: 370px;
 	height: 120px;
+
+	@media screen and (min-width: 1200px) {
+		width: 448px;
+		height: 120px;
+	}
+
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	resize: none;
@@ -153,9 +168,14 @@
 	transition: border var(--transition-function);
 
 	&::placeholder {
-		font-size: 12px;
-		line-height: 1.16;
+		font-size: 14px;
+		line-height: 1.14;
 		letter-spacing: 0.01em;
+
+		@media screen and (min-width: 1200px) {
+			font-size: 12px;
+			line-height: 1.17;
+		}
 
 		color: rgba(117, 117, 117, 0.5);
 	}
@@ -179,12 +199,17 @@
 }
 
 .modal__form-check {
-	font-size: 14px;
-	line-height: 1.71;
+	font-size: 12px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
 	display: flex;
 	align-items: center;
+
+	@media screen and (min-width: 1200px) {
+		font-size: 14px;
+		line-height: 1.71;
+	}
 }
 
 .modal__check {
@@ -219,12 +244,17 @@
 // }
 
 .modal__check-link {
-	font-size: 14px;
-	line-height: 1.71;
+	font-size: 12px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-decoration-line: underline;
 
 	color: var(--accent-color);
+
+	@media screen and (min-width: 1200px) {
+		font-size: 14px;
+		line-height: 1.71;
+	}
 }
 
 .submit__btn {
@@ -262,8 +292,3 @@
 		background: var(--second-btn-color);
 	}
 }
-
-// .submit-btn:hover,
-// .submit-btn:focus {
-// 	background: var(--second-btn-color);
-// }
