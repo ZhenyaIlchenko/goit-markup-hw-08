@@ -29,8 +29,7 @@
 		.address {
 			font-style: normal;
 			margin-top: 20px;
-
-			margin-bottom: 20px;
+			margin-bottom: 60px;
 
 			@media screen and (min-width: 1200px) {
 				margin-bottom: 0;
@@ -72,7 +71,7 @@
 		.footer-social {
 			// margin-left: 70px;
 
-			margin-bottom: 20px;
+			margin-bottom: 60px;
 
 			@media screen and (min-width: 1200px) {
 				margin-bottom: 0;
@@ -236,8 +235,5 @@
 			align-items: center;
 			justify-content: center;
 		}
-		// display: flex;
-		// align-items: center;
-		// justify-content: center;
 	}
 }

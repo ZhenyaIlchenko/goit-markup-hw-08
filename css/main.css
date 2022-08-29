@@ -380,7 +380,7 @@ img {
 .footer__info .address {
   font-style: normal;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer__info .address {
@@ -411,7 +411,7 @@ img {
   color: var(--accent-color);
 }
 .footer__info .footer-social {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer__info .footer-social {
